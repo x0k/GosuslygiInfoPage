@@ -2,8 +2,9 @@
   color: black;
   padding: 10px 20px;
   clear: left;
-  font-size: 18px;
+  font-family: Helvetica;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .collapsible-item_expanded {
@@ -16,7 +17,7 @@
 
 .collapsible-item__title {
   margin: 10px;
-  color: rgb(92, 96, 105);
+  color: rgb(59, 66, 86);
 }
 
 .collapsible-item__description {
@@ -30,16 +31,18 @@
 
 .collapsible-item__trigger {
   float: right;
-  background-color: #f4f9ff;
-  padding: 8px;
-  color: black;
+  padding: 10px;
   width: 160px;
-  text-align: center;
+  background-color: #f4f9ff;
   border: 1px solid #f4f9ff;
   border-radius: 4px;
+  text-align: center;
+  color: rgb(59, 66, 86);
+  font-size: 17px;
+  font-family: Helvetica;
+  font-weight: 400;
   text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
 }
 
 .collapsible-item__trigger:focus {
@@ -47,8 +50,8 @@
 }
 
 .collapsible-item__trigger_active {
-  border: 1px solid #4CAF50;
-  background-color: #4CAF50;
+  border: 1px solid rgb(14, 174, 30);
+  background-color: rgb(14, 174, 30);
   color: white;
 }
 

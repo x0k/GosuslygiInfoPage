@@ -5,6 +5,7 @@
 }
 
 .logo__data {
+  font-family: Helvetica;
   font-weight: normal;
   letter-spacing: 1px;
   float: left;
@@ -15,12 +16,12 @@
 .logo__title {
   height: 30px;
   line-height: 35px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .logo__subtitle {
   color: #89c6ff;
   height: 30px;
   line-height: 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
