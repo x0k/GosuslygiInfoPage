@@ -1,0 +1,58 @@
+.collapsible-item {
+  color: black;
+  padding: 10px 20px;
+  clear: left;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.collapsible-item_expanded {
+  background: #f4f9ff;
+}
+
+.collapsible-item__data {
+  margin-right: 212px;
+}
+
+.collapsible-item__title {
+  margin: 10px;
+  color: rgb(92, 96, 105);
+}
+
+.collapsible-item__description {
+  display: none;
+  padding: 10px 10px 10px 30px;
+}
+
+.collapsible-item__description_showed {
+  display: block;
+}
+
+.collapsible-item__trigger {
+  float: right;
+  background-color: #f4f9ff;
+  padding: 8px;
+  color: black;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #f4f9ff;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.collapsible-item__trigger:focus {
+  outline: none;
+}
+
+.collapsible-item__trigger_active {
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.collapsible-item__trigger_disabled {
+  opacity: 0.6;
+  cursor: default;
+}

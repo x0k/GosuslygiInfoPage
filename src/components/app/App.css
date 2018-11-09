@@ -1,0 +1,53 @@
+/* For sticky footer */
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Header */
+
+.header {
+  background: rgb(0, 104, 199);
+  background: radial-gradient(circle at 80% 40%, rgb(0, 104, 199) 0%, rgb(1, 93, 179) 14%, rgb(1, 83, 160) 59%);
+  height: 400px;
+  color: white;
+  font: 56px arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+
+/* Content */
+
+.content {
+  background: #f4f7fb;
+  padding: 0 60px;
+  flex: 1 0 auto;
+}
+
+.content__data {
+  position: relative;
+  top: -100px;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 10px 60px;
+  background: #3b4256;
+  color: white;
+  flex-shrink: 0;
+}
