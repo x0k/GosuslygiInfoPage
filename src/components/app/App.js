@@ -8,17 +8,17 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="header">
-          <Logo className="header__logo" src={img} title="Репозиторий госуслуг" subtitle="Республики Коми" />
+      <div className="app">
+        <header className="app__header">
+          <Logo className="app__logo" src={img} title="Репозиторий госуслуг" subtitle="Республики Коми" />
           Госуслуги
         </header>
-        <div className="content">
-          <div className="content__data">
+        <div className="app__wrapper">
+          <div className="app__content">
             <Collapsible items={items} />
           </div>
         </div>
-        <footer className="footer">
+        <footer className="app__footer">
           © 2018 ГАУ РК {'"ЦИТ"'}. Все права защищены
         </footer>
       </div>
