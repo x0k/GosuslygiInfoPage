@@ -1,10 +1,12 @@
 .collapsible-item {
   color: black;
   padding: 10px 20px;
-  clear: left;
   font-family: Helvetica;
   font-weight: 500;
   font-size: 18px;
+
+  display: flex;
+  align-items: flex-start;
 }
 
 .collapsible-item_expanded {
@@ -12,7 +14,9 @@
 }
 
 .collapsible-item__data {
-  margin-right: 212px;
+  width: 97%;
+  margin-right: 3%;
+  flex-grow: 1;
 }
 
 .collapsible-item__title {
@@ -30,9 +34,8 @@
 }
 
 .collapsible-item__trigger {
-  float: right;
-  padding: 10px;
   width: 160px;
+  padding: 10px;
   background-color: #f4f9ff;
   border: 1px solid #f4f9ff;
   border-radius: 4px;
