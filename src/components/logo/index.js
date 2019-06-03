@@ -1,10 +1,10 @@
-import React from 'react';
-import './Logo.css';
+import React from 'react'
+import './style.css'
 
 export default function Logo ({ className, src, title, subtitle }) {
-  let classNames = 'logo';
+  let classNames = 'logo'
   if (className) {
-    classNames += ` ${className}`;
+    classNames += ` ${className}`
   }
   return (
     <div className={classNames}>
@@ -14,5 +14,5 @@ export default function Logo ({ className, src, title, subtitle }) {
         <div className="logo__subtitle">{subtitle}</div>
       </div>
     </div>
-  );
+  )
 }

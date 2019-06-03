@@ -8,10 +8,10 @@
         }
     },
     "extends": [
-        "eslint-config-x0k", 
+        "eslint-config-x0k",
         "plugin:react/recommended"
     ],
-    "globals": {
-        "it": true
+    "rules": {
+        "semi":["error", "never"]
     }
 }
